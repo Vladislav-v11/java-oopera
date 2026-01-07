@@ -3,10 +3,10 @@ package ru.practicum;
 import java.util.ArrayList;
 
 public class Show {
-    private String title;
-    int duration;
-    Director director;
-    ArrayList<Actor> listOfActors = new ArrayList<>();
+    protected String title;
+    protected int duration;
+    protected Director director;
+    protected ArrayList<Actor> listOfActors = new ArrayList<>();
 
     public Show(String title, int duration, Director director) {
         this.title = title;
